@@ -1,0 +1,14 @@
+C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2/Build/CMakeFiles/crypto_core.dir
+C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2/Build/CMakeFiles/crypto_app.dir
+C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2/Build/CMakeFiles/test_fields.dir
+C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2/Build/CMakeFiles/test_curves.dir
+C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2/Build/CMakeFiles/test_curves_fpk.dir
+C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2/Build/CMakeFiles/test_serialization.dir
+C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2/Build/CMakeFiles/RUN_TESTS.dir
+C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2/Build/CMakeFiles/INSTALL.dir
+C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2/Build/CMakeFiles/ALL_BUILD.dir
+C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2/Build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2/Build/doctest/CMakeFiles/doctest_with_main.dir
+C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2/Build/doctest/CMakeFiles/RUN_TESTS.dir
+C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2/Build/doctest/CMakeFiles/INSTALL.dir
+C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2/Build/doctest/CMakeFiles/ALL_BUILD.dir

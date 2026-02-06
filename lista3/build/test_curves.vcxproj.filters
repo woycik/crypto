@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\woks0\OneDrive\Pulpit\INA\magisterka\sm_sem2\krypto\lista2 copy\tests\f2kCurves_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\woks0\OneDrive\Pulpit\INA\magisterka\sm_sem2\krypto\lista2 copy\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{56EEE21E-39CA-3D38-AD99-1711B415F0FE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

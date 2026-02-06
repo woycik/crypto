@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\woks0\OneDrive\Pulpit\INA\magisterka\sm_sem2\krypto\lista2\Build\CMakeFiles\909d8340f4e4d7e0f404fa8f98f5e468\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{98498393-9B25-3897-914A-712DA6DB241D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

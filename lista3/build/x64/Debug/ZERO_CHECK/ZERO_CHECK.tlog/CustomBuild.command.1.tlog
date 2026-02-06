@@ -1,0 +1,10 @@
+^C:\USERS\WOKS0\ONEDRIVE\PULPIT\INA\MAGISTERKA\SM_SEM2\KRYPTO\LISTA2 COPY\BUILD\CMAKEFILES\B08ACE06CE71E60A74B94EAEFB9769A6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2 copy" "-BC:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2 copy/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista2 copy/build/lista2.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

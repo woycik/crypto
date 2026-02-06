@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Id="cd2a0d50-1620-36f7-a697-9a4275fd28f6">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="crypto_app.vcxproj"/>
+		<BuildDependency Project="crypto_core.vcxproj"/>
+		<BuildDependency Project="test_curves.vcxproj"/>
+		<BuildDependency Project="test_curves_fpk.vcxproj"/>
+		<BuildDependency Project="test_fields.vcxproj"/>
+		<BuildDependency Project="test_serialization.vcxproj"/>
+	</Project>
+	<Project Path="INSTALL.vcxproj" Id="1e545227-ea6f-3e4d-bdc8-e9dd81a3a9b6">
+		<BuildDependency Project="ALL_BUILD.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="RUN_TESTS.vcxproj" Id="9ff36bdf-33f3-3a21-859f-1faf67fe1962">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="ZERO_CHECK.vcxproj" Id="c93d6f61-6bf1-3977-a574-92ce1b78ad7c"/>
+	<Project Path="crypto_app.vcxproj" Id="d37e3e8d-44f7-3f15-a449-53043d9f4ace">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="crypto_core.vcxproj"/>
+	</Project>
+	<Project Path="crypto_core.vcxproj" Id="1a014372-5422-3510-b28a-7f3457a5720e">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="doctest/doctest_with_main.vcxproj" Id="b7cd83f3-d1da-3606-9427-f1d86d2d85f6">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="test_curves.vcxproj" Id="d5a4bf73-27d3-31e4-b0e5-a2cb2cc68691">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="crypto_core.vcxproj"/>
+	</Project>
+	<Project Path="test_curves_fpk.vcxproj" Id="5888259b-3a30-32ad-8977-5ac76492a22f">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="crypto_core.vcxproj"/>
+	</Project>
+	<Project Path="test_fields.vcxproj" Id="409ea4e0-b10e-36f9-a2fe-87a37b6b8919">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="crypto_core.vcxproj"/>
+	</Project>
+	<Project Path="test_serialization.vcxproj" Id="bc6f82ec-e61d-395f-8c02-088bbc928170">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="crypto_core.vcxproj"/>
+	</Project>
+</Solution>

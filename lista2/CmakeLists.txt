@@ -1,0 +1,47 @@
+cmake_minimum_required(VERSION 3.15)
+
+project(lista2 LANGUAGES C CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+find_package(Boost 1.70 REQUIRED)
+
+set(CRYPTO_SOURCES
+    impl/fields/fp.cpp
+    impl/fields/fpk.cpp
+    impl/fields/f2k.cpp
+    impl/serialization/serialization.cpp
+)
+
+add_library(crypto_core STATIC ${CRYPTO_SOURCES})
+
+target_include_directories(crypto_core PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}/impl
+)
+
+target_link_libraries(crypto_core PUBLIC
+    Boost::boost
+)
+
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/main.cpp")
+    add_executable(crypto_app main.cpp)
+    target_link_libraries(crypto_app PRIVATE crypto_core)
+endif()
+
+enable_testing()
+add_subdirectory(doctest)
+
+function(add_crypto_test test_name source_file)
+    if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/${source_file}")
+        add_executable(${test_name} ${source_file})
+        target_link_libraries(${test_name} PRIVATE crypto_core)
+        add_test(NAME ${test_name} COMMAND ${test_name})
+    endif()
+endfunction()
+
+add_crypto_test(test_fields tests/fields_tests.cpp)
+add_crypto_test(test_curves tests/f2kCurves_tests.cpp)
+add_crypto_test(test_curves_fpk tests/fpkCurves_tests.cpp)
+add_crypto_test(test_serialization tests/serialization_tests.cpp)

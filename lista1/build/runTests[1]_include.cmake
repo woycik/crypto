@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista1/build/runTests[1]_tests.cmake")
+  include("C:/Users/woks0/OneDrive/Pulpit/INA/magisterka/sm_sem2/krypto/lista1/build/runTests[1]_tests.cmake")
+else()
+  add_test(runTests_NOT_BUILT runTests_NOT_BUILT)
+endif()
