@@ -1,7 +1,0 @@
-runTests 4 0.00485935
-EndianConversionTest.BigToLittleEndianBasic 5 0.00413256
-EndianConversionTest.LittleToBigEndianBasic 6 0.00318422
-EndianConversionTest.RoundTripConversion 6 0.00311577
-RotationTest.RotateLeftCheck 2 0.0119575
-RotationTest.RotateRightCheck 2 0.00999235
----

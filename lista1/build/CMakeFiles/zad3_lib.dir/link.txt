@@ -1,2 +1,0 @@
-C:\msys64\mingw64\bin\ar.exe qc libzad3_lib.a CMakeFiles/zad3_lib.dir/zad31.cpp.obj CMakeFiles/zad3_lib.dir/zad2.cpp.obj CMakeFiles/zad3_lib.dir/md5.c.obj
-C:\msys64\mingw64\bin\ranlib.exe libzad3_lib.a
